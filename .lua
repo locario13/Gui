@@ -426,8 +426,6 @@ loadAgeBtn.MouseButton1Click:Connect(function()
 
         fadeTween.Completed:Connect(function()
             screenGui:Destroy()
-            -- Your working pet age script here ðŸ‘‡
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/locario13/Grow-A-Garden-tools/refs/heads/main/.lua"))()
         end)
     end)
 end)
@@ -517,11 +515,8 @@ mutationBtn.MouseButton1Click:Connect(function()
 
         fadeTween.Completed:Connect(function()
             screenGui:Destroy()
-            -- âœ… Correct loadstring goes here
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/locario13/Grow-A-Garden-tools/refs/heads/main/.lua"))()
         end)
     end)
-
 end)
 
 local b4, b5, b6 = "i", "z", "z"
